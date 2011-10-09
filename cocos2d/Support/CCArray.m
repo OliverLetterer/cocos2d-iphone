@@ -25,7 +25,6 @@
 #import "CCArray.h"
 #import "../ccMacros.h"
 
-
 @implementation CCArray
 
 + (id) array

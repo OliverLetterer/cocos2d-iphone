@@ -61,6 +61,8 @@ CGFloat	__ccContentScaleFactor = 1;
 #pragma mark -
 #pragma mark Director iOS
 
+static NSAutoreleasePool	*autoreleasePool;
+
 @interface CCDirector ()
 -(void) setNextScene;
 -(void) showFPS;
